@@ -5,11 +5,12 @@ import Calendar from "@/components/Cards/Calendar";
 import Lines from "@/components/Cards/Lines";
 import { TableDemo } from "@/components/Cards/Table";
 import { DataTableDemo } from "@/components/Cards/DataTable";
+import Pie from "@/components/Cards/Pie";
 export default function Home() {
   return (
     <div className="grid gap-[32px]">
       <div className="grid grid-cols-2 gap-[32px]">
-        <General />
+        <Pie />
         <div className="grid gap-[32px]">
           <Calendar />
           <Calendar />
