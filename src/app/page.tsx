@@ -18,8 +18,7 @@ export default function Home() {
       </div>
       <div className="grid lg:grid-cols-3 gap-[32px] lg:h-[600px] overflow-y-hidden ">
           <Lines />
-          
-        <Card className="p-[32px] overflow-y-hidden">
+        <Card className="p-[32px]">
         <CardHeader>
         <CardTitle>Orders</CardTitle>
         <CardDescription>These are the orders of this year </CardDescription>
@@ -31,7 +30,6 @@ export default function Home() {
         <CardDescription>These are the users of this year </CardDescription>
       </CardHeader>
           <DataTableDemo/></Card>
-       
       </div>
     </div>
   );
