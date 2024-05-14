@@ -9,23 +9,23 @@ import Pie from "@/components/Cards/Pie";
 export default function Home() {
   return (
     <div className="grid gap-[32px]">
-      <div className="grid grid-cols-2 gap-[32px]">
+      <div className="grid lg:grid-cols-2 gap-[32px]">
         <Pie />
         <div className="grid gap-[32px]">
           <Calendar />
           <Calendar />
         </div>
       </div>
-      <div className="grid lg:grid-cols-3 gap-[32px] lg:h-[300px] overflow-hidden">
+      <div className="grid lg:grid-cols-3 gap-[32px] lg:h-[600px] overflow-y-hidden ">
           <Lines />
           
-        <Card className="p-[32px] overflow-y-scroll">
+        <Card className="p-[32px] overflow-y-hidden">
         <CardHeader>
         <CardTitle>Orders</CardTitle>
         <CardDescription>These are the orders of this year </CardDescription>
       </CardHeader>
           <TableDemo/></Card>
-        <Card className="p-[32px] overflow-y-scroll">
+        <Card className="p-[32px]">
         <CardHeader>
         <CardTitle>Users</CardTitle>
         <CardDescription>These are the users of this year </CardDescription>

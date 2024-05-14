@@ -46,12 +46,7 @@ import {
       totalAmount: "$200.00",
       paymentMethod: "Bank Transfer",
     },
-    {
-      invoice: "INV007",
-      paymentStatus: "Unpaid",
-      totalAmount: "$300.00",
-      paymentMethod: "Credit Card",
-    },
+  
   ]
   
   export function TableDemo() {

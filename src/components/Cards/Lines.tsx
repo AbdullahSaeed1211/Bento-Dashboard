@@ -340,7 +340,7 @@ export default function Lines() {
         <CardTitle>Lines</CardTitle>
         <CardDescription>These are the stats of this year </CardDescription>
       </CardHeader>
-      <CardContent className="h-[264px] flex items-center w-full">
+      <CardContent className="h-[300px] flex items-center w-full">
         <MyResponsiveLine data={data} />
       </CardContent>
     </Card>
